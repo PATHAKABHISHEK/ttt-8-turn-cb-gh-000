@@ -21,7 +21,7 @@ end
 def position_not_taken?(board,index)
  if (board[index] == " ")
    return true
- else 
+ else
    return false
 
 end
@@ -33,6 +33,4 @@ if (index.between?(0,8) && position_not_taken)
   return true
 else
   false
-
-end 
-
+end
