@@ -7,3 +7,11 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
   puts "-----------"
 end
+
+#below given method is input_to_index 
+
+def input_to_index(user_input)
+user_input = user_input.to_i
+index = user_input-1
+return index
+end
