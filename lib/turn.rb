@@ -38,6 +38,6 @@ end
 
 # below is the method move
 
-def move(board,index,input_charachter == "X" )
+def move(board,index,input_charachter = "X" )
 board[index] = input_charachter
 end
