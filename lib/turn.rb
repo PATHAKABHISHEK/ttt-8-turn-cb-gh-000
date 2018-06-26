@@ -34,3 +34,4 @@ if (index.between?(0,8) && position_not_taken)
 else
   false
 end
+end
