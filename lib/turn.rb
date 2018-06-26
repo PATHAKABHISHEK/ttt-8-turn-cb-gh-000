@@ -54,6 +54,7 @@ if valid_move?(board,z)
   display_board(board)
 else
   until valid_move?(board,z)
+    puts "Please enter 1-9:"
     turn(board)
   end
 end
