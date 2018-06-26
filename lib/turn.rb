@@ -45,7 +45,7 @@ end
 
 # below is the given method, turn
 
-def turn()
+def turn
 puts "Please enter 1-9"
 
 end
