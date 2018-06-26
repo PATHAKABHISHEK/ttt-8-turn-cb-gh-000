@@ -15,3 +15,24 @@ user_input = user_input.to_i
 index = user_input-1
 return index
 end
+
+# below given method is position_taken
+
+def position_not_taken?(board,index)
+ if (board[index] == " ")
+   return true
+ else 
+   return false
+
+end
+
+# below given method is valid_move?
+
+def valid_move?
+if (index.between?(0,8) && position_not_taken)
+  return true
+else
+  false
+
+end 
+
