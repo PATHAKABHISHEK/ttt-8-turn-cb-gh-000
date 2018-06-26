@@ -52,7 +52,7 @@ z = input_to_index(user_input)
 if valid_move?(board,z)
   move(board,z,"X")
 else
-  while(valid_move? == true )
+  until (valid_move? == true )
   turn(board)
 end
 end
