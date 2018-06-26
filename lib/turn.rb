@@ -54,7 +54,8 @@ if valid_move?(board,z)
   display_board(board)
 else
   until valid_move?(board,z)
-    display_board(board)
+    board = [" "," "," "," "," "," "," "," "," "]
+
     turn(board)
   end
 end
