@@ -20,16 +20,16 @@ end
 
 def position_not_taken?(board,index)
  if (board[index] == " ")
-   return true
- else
    return false
+ else
+   return true
 end
 end
 
 # below given method is valid_move?
 
 def valid_move?(board,index)
-if (index.between?(0,8) && position_not_taken(board,index))
+if (index.between?(0,8) && position_taken(board,index))
   return true
 else
   false
