@@ -53,8 +53,7 @@ if valid_move?(board,z)
   move(board,z,"X")
 else
   while (valid_move? == false)
-  display_board(board)
-  turn(board)
+    turn(board)
 end
 end
 end
