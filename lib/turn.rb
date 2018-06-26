@@ -23,7 +23,7 @@ def position_not_taken?(board,index)
    return true
  else
    return false
-
+end
 end
 
 # below given method is valid_move?
