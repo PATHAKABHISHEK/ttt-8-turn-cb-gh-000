@@ -54,9 +54,9 @@ if valid_move?(board,z)
   display_board(board)
 else
   until valid_move?(board,z)
-    board = [" "," "," "," "," "," "," "," "," "]
-
-    turn(board)
+    puts "Please enter 1-9:"
+    user_input = gets.chomp
+    z = input_to_index(user_input)
   end
 end
 end
