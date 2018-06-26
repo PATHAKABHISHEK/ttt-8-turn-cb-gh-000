@@ -3,6 +3,6 @@ require_relative '../lib/turn'
 board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
-10.times do 
+10.times do
   turn(board)
 end

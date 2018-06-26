@@ -51,6 +51,7 @@ user_input = gets.chomp
 z = input_to_index(user_input)
 if valid_move?(board,z)
   move(board,z,"X")
+  display_board(board)
 else
   while (valid_move? == false)
     turn(board)
