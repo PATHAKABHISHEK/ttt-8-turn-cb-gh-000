@@ -18,7 +18,7 @@ end
 
 # below given method is position_taken
 
-def position_not_taken?(board,index)
+def position_taken?(board,index)
  if (board[index] == " ")
    return false
  else
