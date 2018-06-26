@@ -28,7 +28,7 @@ end
 
 # below given method is valid_move?
 
-def valid_move?
+def valid_move?(board)
 if (index.between?(0,8) && position_not_taken)
   return true
 else
