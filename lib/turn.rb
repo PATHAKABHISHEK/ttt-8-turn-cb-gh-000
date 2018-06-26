@@ -8,5 +8,3 @@ def display_board(board)
   puts "-----------"
 end
 
-def turn(board,index)
-end
